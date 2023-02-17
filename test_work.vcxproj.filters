@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gamethread.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\svga\MAPPING.CPP">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\svga\SVGADRV.CPP">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\svga\Svgawin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\W32.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="includes\bullet.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\element.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\paddle.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Resource.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\scene.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\stdafx.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\W32.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+    <ClInclude Include="includes\Svga.h">
+      <Filter>Includes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="W32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Includes">
+      <UniqueIdentifier>{192c77dd-95eb-485b-b663-7d727b144d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{3b22bd82-89d9-42ee-bb01-7c1b9280fc34}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
